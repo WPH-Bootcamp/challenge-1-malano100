@@ -1,1 +1,19 @@
-/* code here */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fdfaf5;
+  color: #333;
+}
+
+/* 
+   HEADER - Menggunakan FLOAT
+   */
+header {
+  background-color: #8b0000;
+  padding: 15px 30px;
+  overflow: hidden; /* clearfix untuk float */
+}
+
+.header-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
