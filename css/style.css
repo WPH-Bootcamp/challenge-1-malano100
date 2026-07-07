@@ -17,3 +17,12 @@ header {
   max-width: 1000px;
   margin: 0 auto;
 }
+/* Logo di kiri */
+.logo {
+  float: left;
+  font-size: 1.5rem;
+  color: #fff8dc;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 2.5;
+}
