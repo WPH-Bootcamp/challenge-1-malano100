@@ -51,3 +51,35 @@ nav a {
   letter-spacing: 0.5px;
   display: inline-block;
 }
+/* Hover effect - semua perubahan INSTAN */
+nav a:hover {
+  background-color: #fff8dc;
+  color: #8b0000;
+  border-color: #fff8dc;
+}
+
+/* MAIN CONTENT
+ main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+}
+  /* Section visibility dengan :target */
+section {
+  display: none;
+}
+
+section:target {
+  display: block;
+}
+
+#beranda {
+  display: block;
+}
+/* Heading */
+h1 {
+  text-align: center;
+  color: #8b0000;
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+}
