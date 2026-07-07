@@ -127,3 +127,19 @@ article p {
   font-weight: bold;
   font-size: 1.1em;
 }
+/*    TENTANG & KONTAK    */
+.tentang,
+.kontak {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+/*    MENU - Menggunakan INLINE-BLOCK    */
+.menu {
+  text-align: center;
+  font-size: 0; /* menghilangkan whitespace antar inline-block */
+}
