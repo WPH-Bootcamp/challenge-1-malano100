@@ -83,3 +83,47 @@ h1 {
   margin-bottom: 25px;
   font-size: 1.8rem;
 }
+
+/* ============================
+   MENU - Menggunakan INLINE-BLOCK
+   ============================ */
+.menu {
+  text-align: center;
+  font-size: 0; /* menghilangkan whitespace antar inline-block */
+}
+
+article {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1rem; /* reset font-size kembali */
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+article img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+article h3 {
+  color: #8b0000;
+  margin: 12px 0 8px;
+}
+
+article p {
+  color: #555;
+  margin: 8px 0;
+}
+
+.harga {
+  color: #2e8b57;
+  font-weight: bold;
+  font-size: 1.1em;
+}
