@@ -26,3 +26,19 @@ header {
   letter-spacing: 1px;
   line-height: 2.5;
 }
+
+/* Navigasi di kanan */
+nav {
+  float: right;
+  line-height: 2.5;
+}
+
+nav ul {
+  list-style: none;
+}
+
+/* Nav links menggunakan INLINE-BLOCK */
+nav li {
+  display: inline-block;
+  margin-left: 8px;
+}
